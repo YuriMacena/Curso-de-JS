@@ -6,6 +6,6 @@
 ## Módulo 1
 1. - [x] Primeira aula
 2. - [x] Segunda aula
-3. - [ ] Terceira aula
+3. - [x] Terceira aula
 4. - [ ] Quarta aula
    
