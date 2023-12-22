@@ -10,7 +10,7 @@
 4. - [x] Quarta aula
 ***
 ## Módulo 2
-5. - [ ] Quinta aula
+5. - [x] Quinta aula
 6. - [ ] Sexta aula
 7. - [ ] Sétima aula
 8. - [ ] Oitava aula
