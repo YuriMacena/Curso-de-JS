@@ -12,5 +12,5 @@
 ## Módulo 2
 5. - [x] Quinta aula
 6. - [x] Sexta aula
-7. - [ ] Sétima aula
+7. - [x] Sétima aula
 8. - [ ] Oitava aula
