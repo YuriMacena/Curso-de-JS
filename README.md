@@ -13,4 +13,4 @@
 5. - [x] Quinta aula
 6. - [x] Sexta aula
 7. - [x] Sétima aula
-8. - [ ] Oitava aula
+8. - [x] Oitava aula
