@@ -17,4 +17,4 @@
 ***
 ## Módulo C
 9. - [x] Introdução ao DOM
-10. - [x] Eventos DOM 
+10. - [ ] Eventos DOM 
