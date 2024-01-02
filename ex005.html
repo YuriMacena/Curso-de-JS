@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciando estudos com DOM</title>
+    <style>
+        body {
+            background: black;
+            color: white;
+            font: normal 15pt arial;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Iniciando estudos com DOM</h1>
+   <p>Resultado</p> <!--paragráfo 0-->
+   <p><strong>DOM em JavaScript</strong></p> <!--paragráfo 1-->
+   <div class="msg">Clique</div> <!--id=msg, usado para tornar este div único-->
+
+   <script>
+    corpo = window.document.body
+    p1 = window.document.getElementsByTagName('p')[1]
+    window.document.write('Está escrito: '+p1.innerText) //p1.inner.text: dentro do texto do p1
+    p1.style.color = 'grey' //estilo da cor do p1
+    /*
+    d = window.document.getElementById('msg') //d recebe a seleção do id msg
+    d.style.background='green' //d muda a cor do fundo do id msg
+    d.innerText=('Aguardando...') //substituição de 'Clique' por 'Aguardando...'
+    */
+   d=window.document.querySelector('div.msg') //classe = . | id = substitue . por #
+   d.style.background='red'
+   </script>
+
+</body>
+</html>
