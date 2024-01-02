@@ -1,16 +1,19 @@
 # JS-Guanabara
- Anotações do curso de JavaScript
+ Anotações do curso de JavaScript e exemplos de sites.
 
 - [x] Introdução
       
-## Módulo 1
-1. - [x] Primeira aula
-2. - [x] Segunda aula
-3. - [x] Terceira aula
-4. - [x] Quarta aula
+## Módulo A
+1. - [x] O que o JavaScript é capaz de fazer?
+2. - [x] Como chegamos até aqui?
+3. - [x] Dando os primeiros passos
+4. - [x] Criando o seu primeiro script
 ***
-## Módulo 2
-5. - [x] Quinta aula
-6. - [x] Sexta aula
-7. - [x] Sétima aula
-8. - [x] Oitava aula
+## Módulo B
+5. - [x] Variáveis e Tipos Primitivos 
+6. - [x] Tratamento de dados
+7. - [x] Operadores (Parte 1)
+8. - [x] Operadores (Parte 2)
+***
+## Módulo C
+9. - [ ] Introdução ao DOM
