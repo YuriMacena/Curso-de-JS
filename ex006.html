@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div#area { /*div por id=#*/
+            font: normal 15pt arial;
+            background: green; /*cor que está no fundo do texto da div*/
+            color: white; /*cor da letra */
+            width: 200px; /*largura do fundo do texto: 200 pixels*/
+            height: 200px; /*altura do fundo do texto: 200 pixels*/
+            line-height: 200px; /*altura da linha: 200 pixels*/
+            text-align: center; /* texto alinhado ao centro*/
+        }
+    </style>
+</head>
+<body>
+    <div id="area">
+        Interaja...
+    </div>
+
+    <script>
+        a=window.document.getElementById('area')
+        a.addEventListener('click', clicar) //addEventListener foca no evento especifíco e serviu para não poluir a zona html
+        a.addEventListener('mouseenter', entrar)
+        a.addEventListener('mouseout', sair)
+
+        function clicar() { //função clicar
+        a.innerText='Clicou!'
+        a.style.background='red'
+        }
+
+        function entrar() {
+            a.innerText='Entrou'
+        }
+
+        function sair() {
+            a.innerText='Saiu'
+            a.style.background='green'
+        }
+    </script>
+</body>
+</html>
