@@ -20,4 +20,5 @@
 10. - [x] Eventos DOM
 ***
 ## Módulo D
-11. - [ ] Condições (Parte 1)
+11. - [x] Condições (Parte 1)
+12. - [ ] Condições (Parte 2) 
