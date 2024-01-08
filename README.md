@@ -21,4 +21,5 @@
 ***
 ## Módulo D
 11. - [x] Condições (Parte 1)
-12. - [ ] Condições (Parte 2) 
+12. - [x] Condições (Parte 2)
+13. - [ ] Exercícios JavaScript (Parte 1)
