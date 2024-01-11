@@ -1,4 +1,4 @@
-# JS-Guanabara
+# Curso de JavaScript
  Anotações do curso de JavaScript e exemplos de sites.
 
 - [x] Introdução
