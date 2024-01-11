@@ -23,3 +23,4 @@
 11. - [x] Condições (Parte 1)
 12. - [x] Condições (Parte 2)
 13. - [x] Exercícios JavaScript (Parte 1)
+14. - [ ] Exercícios JavaScript (Parte 2)
