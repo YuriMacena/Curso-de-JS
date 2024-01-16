@@ -1,7 +1,4 @@
-function carregar(){
-    msg=document.getElementById('msg')
-    img=document.getElementById('imagem')
-    msg.innerHTML=`Agora são ${hora} horas.`
+function calcular(){
     if (idade>=18 && hora<12){
         img.src='fotoamanhecer.jpg'
         document.body.style.background='blue'
