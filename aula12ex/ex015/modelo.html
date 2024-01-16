@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="estilo.css"><!--css externo, com arquivo-->
+</head>
+<body onload="carregar">
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <section>
+        Ano de nascimento: <input type="number" name="nasc" id="nasc"><br/>
+        Sexo:<br/>
+        <input type="button" value="Verificar" onclick="calcular()"><br/>
+        <div id="msg">
+
+        </div>
+        <div id="foto">
+        </div>
+    </section>
+    <footer>
+        <p>&copy; YuriMacena</p>
+    </footer>
+    <script src="script.js"></script><!--javascript externo, com arquivo-->
+</body>
+</html>
