@@ -6,7 +6,7 @@
     <title>Verificador de Idade</title>
     <link rel="stylesheet" href="estilo.css"><!--css externo, com arquivo-->
 </head>
-<body onload="carregar">
+<body>
     <header>
         <h1>Verificador de Idade</h1>
     </header>
@@ -14,11 +14,11 @@
         <div>
             Ano de nascimento: <input type="number" name="nasc" id="nasc" min="0" max="123"><br/>
             Sexo:<br/>
-                <input type="radio" name="masc" id="masc" checked>
+                <input type="radio" name="typeofsex" id="masc" checked>
                 <label for="masc">Masculino</label><br/>
-                <input type="radio" name="fem" id="fem">
+                <input type="radio" name="typeofsex" id="fem">
                 <label for="fem">Feminino</label><br/>
-                <input type="button" value="Verificar" onclick="calcular()">
+                <input type="button" value="Calcular" onclick="calcular()">
         </div>
         <div id="res">
             Preencha os dados para obter o resultado.

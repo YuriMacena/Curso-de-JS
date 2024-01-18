@@ -1,16 +1,48 @@
 function calcular(){
-    date=new Date()
-    ano=data.getFullYear() //ano atual
-    if (idade>=18 && hora<12){
-        img.src='fotoamanhecer.jpg'
-        document.body.style.background='blue'
-    }else if (hora>=12 && hora<18){
-        img.src='fotoentardecer.jpg'
-        document.body.style.background='orange'
+    date=new Date() //data atual
+    ano=date.getFullYear() //ano atual, 4 digitos
+    fano=document.getElementById('nasc')
+    res=document.querySelector('div#res')
+    if (fano.value.length == 0 || Number(fano.value>ano)){
+        window.alert('Verifique os resultados e tente novamente.')
     }else{
-        img.src='fotoanoitecer.jpg'
-        document.body.style.background="black"
-        //boa noite
+        fsex=document.getElementsByName('typeofsex')
+        idade=ano-Number(fano.value)
+        gen=''
+        img=document.createElement('img')
+        img.setAttribute('id', 'foto')
+        if(fsex[0].checked){
+            gen='Homem'
+            if(idade>=0 && idade<10){
+                //criança
+                img.setAttribute('src', 'bebe-m.jpg')
+            } else if (idade<25){
+                //jovem
+                img.setAttribute('src', 'jovem-m.jpg')
+            } else if (idade<60){
+                //adulto
+                img.setAttribute('src', 'adulto-m.jpg')
+            } else {
+                //idoso
+                img.setAttribute('src', 'idoso-m.jpg')
+            }
+        } else if (fsex[1].checked){
+            gen='Mulher'
+            if(idade>=0 && idade<10){
+                //criança
+                img.setAttribute('src', 'bebe-f.jpg')
+            } else if (idade<25){
+                //jovem
+                img.setAttribute('src', 'jovem-f.jpg')
+            } else if (idade<60){
+                //adulto
+                img.setAttribute('src', 'adulto-f.jpg')
+            } else {
+                //idoso
+                img.setAttribute('src', 'idoso-f.jpg')
+            }
+        }
+        res.innerHTML=`Detectamos ${gen} com ${idade} anos.`
+        res.appendChild(img) //add elemento img
     }
-
 }
