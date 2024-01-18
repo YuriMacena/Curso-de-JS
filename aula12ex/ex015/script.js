@@ -1,4 +1,6 @@
 function calcular(){
+    date=new Date()
+    ano=data.getFullYear() //ano atual
     if (idade>=18 && hora<12){
         img.src='fotoamanhecer.jpg'
         document.body.style.background='blue'
