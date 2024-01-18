@@ -24,4 +24,7 @@
 12. - [x] Condições (Parte 2)
 13. - [x] Exercícios JavaScript (Parte 1)
 14. - [x] Exercícios JavaScript (Parte 2)
-15. - [ ] Exercícios JavaScript (Parte 3)
+15. - [x] Exercícios JavaScript (Parte 3)
+***
+## Módulo E
+16. - [ ] Repetições (Parte 1) 
