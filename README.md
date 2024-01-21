@@ -28,4 +28,5 @@
 ***
 ## Módulo E
 16. - [x] Repetições (Parte 1)
-17. - [ ] Repetições (Parte 2) 
+17. - [x] Repetições (Parte 2)
+18. - [ ] Exercícios JavaScript (Parte 4)
