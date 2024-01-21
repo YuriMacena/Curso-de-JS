@@ -27,4 +27,5 @@
 15. - [x] Exercícios JavaScript (Parte 3)
 ***
 ## Módulo E
-16. - [ ] Repetições (Parte 1) 
+16. - [x] Repetições (Parte 1)
+17. - [ ] Repetições (Parte 2) 
