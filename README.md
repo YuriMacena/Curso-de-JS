@@ -29,4 +29,9 @@
 ## Módulo E
 16. - [x] Repetições (Parte 1)
 17. - [x] Repetições (Parte 2)
-18. - [ ] Exercícios JavaScript (Parte 4)
+18. - [x] Exercícios JavaScript (Parte 4)
+19. - [x] Exercícios JavaScript (Parte 5)
+20. - [x] Exercícios JavaScript (Parte 6)
+***
+## Módulo F
+21. - [ ] Variáveis Compostas
