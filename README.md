@@ -34,4 +34,5 @@
 20. - [x] Exercícios JavaScript (Parte 6)
 ***
 ## Módulo F
-21. - [ ] Variáveis Compostas
+21. - [x] Variáveis Compostas
+22. - [ ] Funções 
