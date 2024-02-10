@@ -37,3 +37,6 @@
 21. - [x] Variáveis Compostas
 22. - [x] Funções 
 23. - [x] Exercicíos JavaScript (Parte 7)
+24. - [x] Exercicíos JavaScript (Parte 8)
+25. - [ ] Próximos Passos
+***
