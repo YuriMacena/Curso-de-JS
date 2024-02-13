@@ -38,5 +38,6 @@
 22. - [x] Funções 
 23. - [x] Exercicíos JavaScript (Parte 7)
 24. - [x] Exercicíos JavaScript (Parte 8)
-25. - [ ] Próximos Passos
+25. - [x] Próximos Passos
 ***
+Curso concluído.
