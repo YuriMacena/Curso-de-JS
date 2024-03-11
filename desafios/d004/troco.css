@@ -1,0 +1,9 @@
+body {
+    font: 12pt arial;
+}
+
+input {
+    padding: 30px;
+    font-size: larger;
+    cursor: pointer;
+}
